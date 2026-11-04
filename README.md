@@ -1,6 +1,6 @@
-# SmallSat Avionics SIL/HIL Testbed
+# STM32 Flight Computer
 
-A bench testbed for small-satellite avionics: STM32 firmware, portable C++ flight logic, and Python tooling for software- and hardware-in-the-loop testing.
+A personal bench prototype of a spacecraft flight computer: STM32 firmware, portable C++ flight logic, and Python tooling for software- and hardware-in-the-loop testing. It has never flown.
 Everything runs on a workbench with real parts and test gear: an STM32 as the flight computer, sensors and power hardware, a logic analyzer, and a scope. Behavior gets checked in software first (SIL), then on the hardware itself (HIL), and the results - logs, reports, and scope captures - land in the repo alongside the code.
 
 ## The stack
